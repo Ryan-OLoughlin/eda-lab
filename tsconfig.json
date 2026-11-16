@@ -23,10 +23,10 @@
     "typeRoots": [
       "./node_modules/@types"
     ],
-    "baseUrl": ".",
+    "types": ["node"],
     "paths": {
-      "/opt/nodejs/sharp-utils": ["layers/sharp-utils/nodejs/sharp-utils"],
-      "/opt/*": ["shared/*"]
+      "/opt/nodejs/sharp-utils": ["./layers/sharp-utils/nodejs/sharp-utils"],
+      "/opt/*": ["./shared/*"]
     },
   },
   "exclude": [
